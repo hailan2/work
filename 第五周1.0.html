@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>第五周作业1.0</title></head>
+	<style>
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+	.contain{
+		background: rgb(238,238,237);
+		height: 1200px;
+		position: relative;
+	}
+  	.head{
+  		height: 80px;
+  		background: rgb(33,137,191);
+  	}
+  	.headtu{
+		padding: 25px 200px;
+		display: block;
+  	}
+  	.mainLeft{
+  		background: rgb(42,41,61);
+  		height: 800px;
+  		width: 202px;
+  		float: left;
+  		position: relative;
+  	}
+  	.mainRight{
+  		float: left;
+  	}
+ 	.main1{
+ 		background: rgb(255,255,255);
+ 		height: 50px;
+ 		width: 998px;
+ 		margin:1px 30px 10px 0px ;
+ 		float: left;
+ 	}
+ 	.main1lie{
+ 		float: left;
+ 		display: block;
+ 		margin: 7px;
+ 	}
+  	.main2{
+  		height: 120px;
+  		width: 1100px;
+  		background:rgb(238,238,237);
+  		margin:10px 10px 10px 80px;
+  		position: absolute;
+  		top: 150px;
+  		float: left;
+  	}
+
+    .main2d{
+    	float: left;
+    	margin: 5px;
+    	width: 120px;
+    	height: 90px;
+    	background:rgb(255,255,255);
+    }
+    .main2Left{
+    	float: left;
+    	padding: 10px;
+     	background: rgb(255,255,255);
+     	height: 75px;	
+     	display: inline;
+     	line-height: 75px;
+    }
+    .main2Right{
+    	float: left;
+    	padding: 10px;
+    	background: rgb(255,255,255);
+    	height: 75px;
+    	display: inline;
+    	line-height: 75px;
+    }
+    .main2dlie2{
+    	color: rgb(236,102,2);
+    }
+    .main2tu{
+    	height: 60px;
+    	width: 120px;
+    	margin: 5px;
+    	padding: 16px 0px;
+    	background: rgb(255,255,255);
+    	float: left;
+    }
+    .main2dlie1{
+    	text-align: center;
+		line-height: 30px;
+    }
+    .main2dlie2{
+    	text-align: center;
+    	line-height: 30px;
+    	font-size: 20px;
+    }
+    .main3{
+    	height: 40px;
+    	position: absolute;
+    	top: 280px;
+    	left: 280px;
+    	float: left;
+    }
+	.main4{
+		height: 120px;
+		width: 925px;
+		background: rgb(238,238,237);
+		margin: 10px 10px 10px 80px;
+		position: absolute;
+		top: 300px;
+	}
+	.main4d{
+		float: left;
+		width: 210px;
+		height: 100px;
+		margin: 10px;
+		background: rgb(255,255,255);
+		position: relative;
+	}
+	.main4dlie{
+		line-height: 40px;
+	}
+	.main4dd1{
+		display: block;
+		height: 60px;
+		width: 90px;
+		float: right;
+		background: rgb(67,178,157);
+		position: absolute;
+		top: 20px;
+		left: 110px;
+	}
+	.main4dd2{
+		display: block;
+		height: 60px;
+		width: 90px;
+		float: right;
+		background: rgb(56,138,193);
+		position: absolute;
+		top: 20px;
+		left: 110px;
+	}
+	.main4dd3{
+		display: block;
+		height: 60px;
+		width: 90px;
+		float: right;
+		background: rgb(208,75,54);
+		position: absolute;
+		top: 20px;
+		left: 110px;
+	}
+	.main4dd4{
+		display: block;
+		height: 60px;
+		width: 90px;
+		float: right;
+		background: rgb(226,205,70);
+		position: absolute;
+		top: 20px;
+		left: 110px;
+	}
+	.mainLeft1{
+		height: 300px;
+		line-height: 40px;
+		margin: 20px 30px;
+	}
+	.mainLeft2{
+		height: 300px;
+		position: relative;
+	}
+	.mainLeft2tu{
+		float: left;
+		position: absolute;
+		left: 20px;
+	}
+	.mainLeft2lie{
+		float: right;
+		position: absolute;
+		right: 80px;
+		line-height: 40px;
+	}
+	.main5{
+		position: absolute;
+		top: 500px;
+		right: 100px;
+		width: 200px;
+		height: 600px;
+		line-height: 50px;
+	}
+	.main5 table{
+		border-collapse: collapse;
+	}
+	.main5 td{
+		border: 1px solid rgb(231,231,231);
+		border-spacing: 80px;
+	}
+	</style>
+<body>
+	<div class="contain">
+	<div class="head"><li class="headtu"><img src="./image/1.png
+	"/></li></div>
+	<div class="mainLeft">
+		<div><img src="./image/3.png"/></div>
+		<div>
+			<div class="mainLeft1">
+				<li>个人报表</li>
+				<li>文件一</li>
+				<li>文件二</li>
+				<li>文档1</li>
+				<li>文档2</li>
+				<li>文件三</li>
+			</div>
+			<div class="mainLeft2">
+			<div class="mainLeft2tu"><img src="./image/2.png"></div>
+				<div class="mainLeft2lie">
+				<li >个人收藏</li>
+				<li >我的分享</li>
+				<li >图库</li>
+				<li >成长记录</li>
+				<li >账户信息</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mainRight">
+	<div class="main1">
+		<li class="main1lie">c站/</li>
+		<li class="main1lie">个人报表/</li>
+		<li class="main1lie">文件一/</li>
+		<li class="main1lie">文档一</li>
+	</div>
+	<div class="main2">
+		<div class="main2Left">&lt</div>
+		<div class="main2d"><li class="main2dlie1">10:00am</li>
+		<li class="main2dlie2">&yen 1200</li></div>
+		<div class="main2d"><li class="main2dlie1">11:00am</li>
+		<li class="main2dlie2">&yen 1300</li></div>
+		<div class="main2d"><li class="main2dlie1">12:00am</li>
+		<li class="main2dlie2">&yen 1200</li></div>
+		<div class="main2d"><li class="main2dlie1">01:00am</li>
+		<li class="main2dlie2">&yen 1400</li></div>
+		<div class="main2d"><li class="main2dlie1">02:00am</li>
+		<li class="main2dlie2">&yen 1500</li></div>
+		<div class="main2d"><li class="main2dlie1">03:00am</li>
+		<li class="main2dlie2">&yen 1800</li></div>
+		<div class="main2Right">&gt</div>
+		<div class="main2tu"><img src="./image/4.png"/></div>
+	</div>
+	<div class="main3">2014年4月份统计</div>
+	<div class="main4">
+		<div class="main4d">
+			<li class="main4dlie">133311</li>
+			<li class="main4dlie">成交量</li>
+			<li class="main4dd1"></li>
+		</div>
+		<div class="main4d">
+			<li class="main4dlie">133311</li>
+			<li class="main4dlie">成交量</li>
+			<li class="main4dd2"></li>
+		</div>
+		<div class="main4d">
+			<li class="main4dlie">133311</li>
+			<li class="main4dlie">成交量</li>
+			<li class="main4dd3"></li>
+		</div>
+		<div class="main4d">
+			<li class="main4dlie">133311</li>
+			<li class="main4dlie">成交量</li>
+			<li class="main4dd4"></li>
+		</div>
+	</div>
+	<div class="main5">
+		<table>
+			<tr>
+				<td colspan="3">第一项目</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<li>标题</li>
+					<li>项目报表三</li>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<li>价格</li>
+					<li>&yen 158</li>
+				</td>
+				<td colspan="2">
+					<li>负责人</li>
+					<li>小A</li>
+				</td>
+			</tr>
+			<tr rowspan="3">
+				<td colspan="3">
+					<li>项目描述</li>
+					<li>该项目负责人是......</li>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">遵守保密协议</td>
+				<td>搜索</td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
